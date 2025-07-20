@@ -1,0 +1,26 @@
+{
+    "name": "shevabam/simple-hcaptcha",
+    "description": "A simple PHP library to integrate hCaptcha in your PHP applications",
+    "keywords": ["hcaptcha", "captcha"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shevabam",
+            "homepage": "https://shevabam.fr"
+        }
+    ],
+    "homepage": "https://github.com/shevabam/simple-hcaptcha",
+    "require": {
+        "php": ">=7.4.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimpleHcaptcha\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
