@@ -24,7 +24,7 @@ composer require shevabam/hcaptcha-php
 <?php
 require 'vendor/autoload.php';
 
-use Hcaptcha\Hcaptcha;
+use SimpleHcaptcha\Hcaptcha;
 
 // Initialize with your site key and secret key
 $hcaptcha = new Hcaptcha('your-site-key', 'your-secret-key');
